@@ -2,7 +2,7 @@
 CS5500 Git Homework Step 4
 
 Created a program PrintNumbers.java whih takes two arguments from the commandline 
-and prints all the numbers in between them.
+and prints all the even numbers in between them.
 
 How to run PrintNumbers.java ?
   From commandline, go to the respective file directory. Then use the following commands.
