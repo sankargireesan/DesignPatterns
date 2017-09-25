@@ -1,0 +1,11 @@
+CS5500 Git Homework Step 4
+
+Created a program PrintNumbers.java whih takes two arguments from the commandline 
+and prints all the numbers in between them.
+
+How to run PrintNumbers.java ?
+  From commandline, go to the respective file directory. Then use the following commands.
+  1. > javac PrintNumbers.java
+  2. > java PrintNumbers 10 20
+
+Here, two numbers 10 and 20 are passed as arguments
