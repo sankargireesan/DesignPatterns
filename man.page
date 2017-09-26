@@ -1,11 +1,10 @@
 CS5500 Git Homework Step 9 
 
-
 Write a Java program that takes two numbers passed in as
-arguments and prints out all the even numbers that sit between these two numbers.
+arguments and prints out all the numbers that sit between these two numbers.
 
 Created a program PrintNumbers.java whih takes two arguments from the commandline 
-and prints all the even numbers in between them.
+and prints all the numbers in between them.
 
 
 How to run PrintNumbers.java ?
@@ -14,5 +13,3 @@ How to run PrintNumbers.java ?
   2. > java PrintNumbers 10 20
 
 Here, two numbers 10 and 20 are passed as argument
-
-
