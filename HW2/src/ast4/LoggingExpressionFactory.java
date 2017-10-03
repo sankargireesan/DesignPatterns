@@ -1,7 +1,11 @@
 package ast4;
 
+// LoggingExpressionFactory extends ExpressionFactory allowing users to create new objects of
+// Expression type and also a report function
 public class LoggingExpressionFactory extends ExpressionFactory {
 
+    // report function when called will return the total number of Expression objects created
+    // It also give the individual count of objects created
     public String report(){
 
         int infixExp = InfixExpression.getCount();
@@ -18,7 +22,6 @@ public class LoggingExpressionFactory extends ExpressionFactory {
                 "\n number of NumberExpression :"+Integer.toString(numExp)+
                 "\n number of VariableExpression :"+Integer.toString(varExp)+
                 "\n number of StringExpression :"+Integer.toString(stringExp);
-
 
         return countString;
     }

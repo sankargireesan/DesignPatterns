@@ -12,6 +12,7 @@ public class NumberExpression extends Expression {
         text=Integer.toString(n);
     }
 
+    // returns the textual representation of the object
     @Override
     public String textualRepresentation() {
         return text;

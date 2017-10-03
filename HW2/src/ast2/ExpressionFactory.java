@@ -1,5 +1,6 @@
 package ast2;
 
+// ExpressionFactory creates factory which enables users to create objects of type Expression
 public class ExpressionFactory {
 
     public InfixExpression makeInfixExpression(Operator o, Expression first, Expression second){

@@ -1,5 +1,6 @@
 package ast2;
 
+// StatementFactory creates factory which enables users to create objects of type Statement
 public class StatementFactory {
 
     public Declaration makeDeclaration(Variable newVariable){

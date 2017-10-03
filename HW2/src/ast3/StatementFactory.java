@@ -1,5 +1,6 @@
 package ast3;
 
+// Statement Factory lets user to create objects of Statement sub class
 public class StatementFactory {
 
     public Declaration makeDeclaration(Variable newVariable){

@@ -1,5 +1,7 @@
 package ast4;
 
+
+// ExpressionFactory enables user to create Expressions using the factory object
 public class ExpressionFactory {
 
     public InfixExpression makeInfixExpression(Operator o, Expression first, Expression second){

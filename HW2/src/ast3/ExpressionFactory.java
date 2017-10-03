@@ -1,4 +1,7 @@
 package ast3;
+
+// ExpressionFactory is used to create objects of Expression objects
+// It lets user create objects maintaining a layer of abstraction
 public class ExpressionFactory {
 
     public InfixExpression makeInfixExpression(Operator o, Expression first, Expression second){
