@@ -1,0 +1,26 @@
+Q1:
+-2: Test suite does not cover methods in VariableExpression class
+Note:
+Include boundary cases in the tests
+Include more tests.
+
+Q2:
+Note:test cases does not include variable expression.
+Test suite does not cover methods in VariableExpression class.
+Include boundary cases in the tests.
+Include more tests.
+-5: Tests cases does not use the design pattern correctly- has constructor in each test case.
+-1: Methods in Factory class not documented
+
+Q3:
+-3: Solution does not use the design pattern correctly, has 4 Factory classes for this problem.
+-2: Does not print the result.
+Note:Methods in Factory class not documented.
+
+Q4:
+Note:Methods in Factory class not documented.
+-3:For an over-engineering thought of including more and more factories which was unneccessary.
+
+Q5:
+-5: Advantages of singleton design pattern not explained.
+
