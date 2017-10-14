@@ -8,6 +8,6 @@ public class Statement extends Node {
 
 	  // calls visitor method of the particular object
 	  public void accept(ASTNodeCountVisitor v){
-			  v.visitor(this);
+			  this.accept(v);
 	  } 
 }

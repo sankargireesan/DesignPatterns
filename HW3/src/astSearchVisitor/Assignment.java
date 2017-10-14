@@ -26,6 +26,7 @@ public class Assignment extends Statement {
   // calls visitor method of the particular object
   public void accept(ASTNodeCountVisitor v){
 		  v.visitor(this);
+		  exp.accept(v);
  } 
   
 }

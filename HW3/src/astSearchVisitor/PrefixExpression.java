@@ -21,6 +21,7 @@ public class PrefixExpression extends Expression {
   // calls visitor method of the particular object
   public void accept(ASTNodeCountVisitor v){
 		  v.visitor(this);
+		  operand.accept(v);
  }
   
 }
