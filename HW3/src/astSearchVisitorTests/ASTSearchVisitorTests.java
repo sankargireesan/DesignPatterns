@@ -333,7 +333,7 @@ public class ASTSearchVisitorTests {
     ASTSearchVisitor v = new ASTSearchVisitor();
     
     seq.accept(v);
-    v.report();
+//    v.report();
     
   assertEquals(v.get_nrExpression(), 3);
 

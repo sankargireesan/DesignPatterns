@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import astNodeCountVisitor.*;
 
-public class ASTFactoryTests {
+public class ASTNodeCountVisitorTests {
   
   private static AbstractASTFactory factory;
   
