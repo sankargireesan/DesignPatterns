@@ -24,5 +24,7 @@ public class InfixExpression extends Expression {
   // calls visitor method of the particular object
   public void accept(ASTNodeCountVisitor v){
 		  v.visitor(this);
+		  leftOperand.accept(v);
+		  rightOperand.accept(v);
  } 
 }

@@ -21,5 +21,7 @@ public class Sequence extends Statement {
   // calls visitor method of the particular object
   public void accept(ASTNodeCountVisitor v){
 		  v.visitor(this);
+		  stat1.accept(v);
+		  stat2.accept(v);
  } 
 }
