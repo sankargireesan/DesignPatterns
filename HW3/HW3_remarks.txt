@@ -1,0 +1,16 @@
+Question 1:
+"-10: string representation
+-2: Boundary conditions not handled"
+
+
+Question 2:
+"2-a:class should be abstract not concrete -5pts.
+2-b:addAll method and duplicates not tested -4pts.
+2-b: Not checking if node is null -2pts."
+
+Question 3:
+"Q3 : ·   3a: -3 points: lack of comments -- please comment each class and each method
+·         3bc: -2 points: sloppiness: please don’t leave TODO comments in solutions that you submit for grading
+·         3b: -3 points: test redundantly calls accept() many times
+·         3b: -3 points: only one test for testing the visitor
+·         3d: ok"
