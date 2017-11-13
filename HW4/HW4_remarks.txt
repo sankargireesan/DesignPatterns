@@ -1,7 +1,5 @@
 Q1:
-"-3: Tests do not cover list with single null values
--3: Tests do not cover large list (size > 100)
--3: Tests do not cover list of length 1"
+Looks fine!
 
 Q2:
 -2: All methods in sorters are public, should hide the implementation details(private)
